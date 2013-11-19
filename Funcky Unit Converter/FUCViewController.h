@@ -10,4 +10,15 @@
 
 @interface FUCViewController : UIViewController
 
+@property (strong,nonatomic) UIImage * imageOfDollarBills;
+
+@property (strong, nonatomic) IBOutlet UIImageView *billsImageView;
+
+
+@property (strong, nonatomic) IBOutlet UILabel * numberOfBillsLabel;
+
+@property (strong, nonatomic) IBOutlet UITextField * numberOfBillsTextField;
+
+- (IBAction)convertingButton:(UIButton *)sender;
+
 @end

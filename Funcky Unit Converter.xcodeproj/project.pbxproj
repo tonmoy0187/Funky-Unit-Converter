@@ -21,6 +21,7 @@
 		1C969BEF183BBD4500BEA9BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C969BD1183BBD4500BEA9BF /* UIKit.framework */; };
 		1C969BF7183BBD4500BEA9BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C969BF5183BBD4500BEA9BF /* InfoPlist.strings */; };
 		1C969BF9183BBD4500BEA9BF /* Funcky_Unit_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C969BF8183BBD4500BEA9BF /* Funcky_Unit_ConverterTests.m */; };
+		1C969C03183BC3E700BEA9BF /* dollar_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C969C02183BC3E700BEA9BF /* dollar_03.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1C969BF4183BBD4500BEA9BF /* Funcky Unit ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Funcky Unit ConverterTests-Info.plist"; sourceTree = "<group>"; };
 		1C969BF6183BBD4500BEA9BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C969BF8183BBD4500BEA9BF /* Funcky_Unit_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Funcky_Unit_ConverterTests.m; sourceTree = "<group>"; };
+		1C969C02183BC3E700BEA9BF /* dollar_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dollar_03.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		1C969BD4183BBD4500BEA9BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1C969C02183BC3E700BEA9BF /* dollar_03.jpg */,
 				1C969BD5183BBD4500BEA9BF /* Funcky Unit Converter-Info.plist */,
 				1C969BD6183BBD4500BEA9BF /* InfoPlist.strings */,
 				1C969BD9183BBD4500BEA9BF /* main.m */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C969C03183BC3E700BEA9BF /* dollar_03.jpg in Resources */,
 				1C969BE6183BBD4500BEA9BF /* Images.xcassets in Resources */,
 				1C969BD8183BBD4500BEA9BF /* InfoPlist.strings in Resources */,
 				1C969BE1183BBD4500BEA9BF /* Main.storyboard in Resources */,

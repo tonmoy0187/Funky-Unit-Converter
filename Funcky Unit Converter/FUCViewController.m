@@ -17,7 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    self.imageOfDollarBills = [UIImage imageNamed:@"dollar_03.jpg"];
+    self.billsImageView.image = self.imageOfDollarBills; 
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)convertingButton:(UIButton *)sender {
+    
+    float numberOfBills = [self.numberOfBillsTextField.text floatValue];
+    float numberOfFootField = numberOfBills / 91440;
+    self.numberOfBillsLabel.text = [NSString stringWithFormat:@"%f",numberOfFootField];
+}
 @end
+
+
+
+
+
+
+
+
+
+
